@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/StylesHome.css" />
+    <title>Pantalla de sectores</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-light">
+        <div class="row">
+            <!--<img class="imgNav" src="img/logosanjuan.png" alt="Alternate Text" />-->
+            <a class="navbar-brand" href="../index.html"><img
+                    src="https://img.icons8.com/ios-filled/24/000000/full-tool-storage-box---v1.png">Home</a>
+            <a class="navbar-brand" href="Neworden.html"><img
+                    src="https://img.icons8.com/ios-filled/24/000000/full-tool-storage-box---v1.png">Nueva orden</a>
+            <a class="navbar-brand" href="../seccion/ViewOrden.html"><img
+                    src="https://img.icons8.com/material-rounded/24/000000/view-file.png">Ver ordenes</a>
+        </div>
+    </nav>
+    <div class="container">
+        <form>
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label>Nombre del sector</label>
+                        <input type="text" id="Snombre" class="form-control" placeholder="ingrese el nombre del sector">
+                        <label>Urgencia</label>
+                        <select class="form-control">
+                            <option selected="true" disabled="true">Seleccione un nivel de urgencia</option>
+                            <option value="-3">Baja</option>
+                            <option value="-2">Media</option>
+                            <option value="-1">Alta</option>
+                            <option value="0">Critico</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-group">
+                        <label>Edificio</label>
+                        <input type="text" id="Snombre" class="form-control" placeholder="Nombre del edificio">
+                        <label>Piso</label>
+                        <select class="form-control">
+                            <option selected="true" disabled="true">Seleccione un piso</option>
+                            <option value="-3">-3</option>
+                            <option value="-2">-2</option>
+                            <option value="-1">-1</option>
+                            <option value="0">PB</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary" style="margin-bottom: 10px;">Guardar</button>
+            <button type="button" class="btn btn-danger" style="margin-bottom: 10px;">Modificar</button>
+        </form>
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Edificio</th>
+                    <th scope="col">Piso</th>
+                    <th scope="col">Nivel</th>
+                    <th scope="col">Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="bodytablesector">
+
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <label></label>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+﻿.navbar {
+    background-color:gray;
+}
+.imgNav{
+    margin-right:20px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}

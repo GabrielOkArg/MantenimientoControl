@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/StylesHome.css" />
+    <title>Nueva orden</title>
+</head>
+<body>
+    <nav class="navbar navbar-light">
+        <div class="row">
+            <!--<img class="imgNav" src="../img/logosanjuan.png" alt="Alternate Text" />-->
+            <a class="navbar-brand" href="../index.html"><img src="https://img.icons8.com/ios-filled/24/000000/full-tool-storage-box---v1.png">Home</a>
+            <a class="navbar-brand" href="../seccion/ViewOrden.html"><img src="https://img.icons8.com/material-rounded/24/000000/view-file.png">Ver ordenes</a>
+            <a class="navbar-brand" href="crudSector.html"><img src="https://img.icons8.com/ios-filled/24/000000/hospital-3.png">Sectores</a>
+            <a class="navbar-brand" href="#"><img src="https://img.icons8.com/pastel-glyph/24/000000/customer-support.png"/>Tecnicos</a>
+        </div>
+    </nav>
+    <div class="container">
+       <form>
+           <div class="row">
+               <div class="col">
+                   <div class="form-group">
+                    <label>Sector</label>
+                    <select class="form-control">
+                        <option selected disabled>Seleccione un sector</option>
+                    </select>
+                   </div>
+                   <div class="form-group">
+                        <label>Descripcion</label>
+                        <textarea class="form-control"></textarea>
+                      
+                   </div>
+                   <div class="form-group">
+                       <button type="button" class="btn btn-primary">Guardar</button>
+                   </div>
+               </div>
+               <div class="col">
+                <div class="form-group">
+                    <label>Tecnico/Turno</label>
+                    <select class="form-control">
+                        <option selected disabled>Seleccione tecnico o turno</option>
+                    </select>
+                   </div>
+                   <div class="form-group">
+                    <label>Urgencia</label>
+                    <select class="form-control">
+                        <option selected disabled>Seleccione un nivel de urgencia</option>
+                        <option value="-3">Baja</option>
+                        <option value="-2">Media</option>
+                        <option value="-1">Alta</option>
+                        <option value="0">Critico</option>
+                    </select>
+                   </div>
+               </div>
+           </div>
+       </form>
+    </div>
+
+</body>
+</html>
