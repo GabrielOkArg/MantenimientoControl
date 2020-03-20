@@ -72,6 +72,7 @@
     <Content Include="img\mantenimeinto.png" />
     <Content Include="index.html" />
     <Content Include="seccion\crudSector.html" />
+    <Content Include="seccion\CrudTecnico.html" />
     <Content Include="seccion\Home.html" />
     <Content Include="seccion\Neworden.html" />
     <Content Include="seccion\ViewOrden.html" />

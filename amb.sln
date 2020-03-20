@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "amb.BLL", "amb.BLL\amb.BLL.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abm.DAL", "abm.DAL\abm.DAL.csproj", "{F390CCE6-4295-40F6-9F77-4DFE29F402EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "amb.Logic", "amb.Logic\amb.Logic.csproj", "{B80ED624-D0AF-4261-A763-68AC5AB46C37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "amb.Util", "amb.Util\amb.Util.csproj", "{69C4E431-3C3B-469F-92F2-219F098D9A13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{F390CCE6-4295-40F6-9F77-4DFE29F402EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F390CCE6-4295-40F6-9F77-4DFE29F402EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F390CCE6-4295-40F6-9F77-4DFE29F402EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B80ED624-D0AF-4261-A763-68AC5AB46C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B80ED624-D0AF-4261-A763-68AC5AB46C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B80ED624-D0AF-4261-A763-68AC5AB46C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B80ED624-D0AF-4261-A763-68AC5AB46C37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69C4E431-3C3B-469F-92F2-219F098D9A13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69C4E431-3C3B-469F-92F2-219F098D9A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69C4E431-3C3B-469F-92F2-219F098D9A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69C4E431-3C3B-469F-92F2-219F098D9A13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

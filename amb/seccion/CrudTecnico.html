@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/StylesHome.css" />
+    <title>Portal de tecnicos</title>
+</head>
+<body>
+   <nav class="navbar navbar-light">
+       <div class="row">
+           <!--<img class="imgNav" src="img/logosanjuan.png" alt="Alternate Text" />-->
+           <a class="navbar-brand" href="../index.html">
+               <img src="https://img.icons8.com/ios-filled/24/000000/full-tool-storage-box---v1.png">Home
+           </a>
+           <a class="navbar-brand" href="Neworden.html">
+               <img src="https://img.icons8.com/ios-filled/24/000000/full-tool-storage-box---v1.png">Nueva orden
+           </a>
+           <a class="navbar-brand" href="../seccion/ViewOrden.html">
+               <img src="https://img.icons8.com/material-rounded/24/000000/view-file.png">Ver ordenes
+           </a>
+           <a class="navbar-brand" href="crudSector.html"><img src="https://img.icons8.com/ios-filled/24/000000/hospital-3.png">Sectores</a>
+       </div>
+    </nav>
+    <div class="container">
+        <form>
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label>Nombre: </label>
+                        <input type="text" id="TecNombre" class="form-control" placeholder="Ingrese el nombre del tecnico"/>
+                        <label>Apellido: </label>
+                        <input type="text" id="TecApellido" class="form-control" placeholder="Ingrese el apellido del tecnico" />
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-primary">Guardar</button>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-group">
+                        <label>Rol del tecnico</label>
+                        <select class="form-control" id="selectRol">
+                            <option selected disabled>Seleccione un rol para el tecnico</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+        </form>
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Legajo</th>
+                    <th scope="col">Apellido</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Rol</th>
+                </tr>
+            </thead>
+            <tbody id="bodyTableTecnicos">
+
+            </tbody>
+        </table>
+
+    </div>
+</body>
+</html>
